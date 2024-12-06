@@ -22,6 +22,7 @@ dependencies:
   - numpy
   - pandas
   - s3fs>=2023.6.0
+  - seaborn
   - toml
   - xarray
 
@@ -36,6 +37,7 @@ dependencies:
   - pip:
       # Borrow some tools from my garage
       #- git+https://github.com/blaylockbk/Carpenter_Workshop.git
+      - import-ipynb
 ###############################################################################
 #
 # Note: Being more specific with versions *may* help speed up conda
