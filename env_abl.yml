@@ -1,21 +1,22 @@
-name: ABL
+name: ABL2
 channels:
   - conda-forge
 dependencies:
   - python>=3.11
   - pip
   - git
-  - rclone >= 1.58.0 # Not required by goes2go, but is an awesome alternative https://rclone.org/
+  - rclone >= 1.58.0 
 
   # -----
   # Tools
   # -----
   - cartopy
   - geopandas
-  - goes2go
+  #- goes2go
   - h5netcdf
   - jupyter
   - jupyterlab
+  - lmfit
   - matplotlib
   - metpy
   - netcdf4
@@ -23,6 +24,7 @@ dependencies:
   - pandas
   - s3fs>=2023.6.0
   - seaborn
+  - scipy
   - toml
   - xarray
 
